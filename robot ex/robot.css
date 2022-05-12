@@ -1,7 +1,49 @@
 img {
   width: 50px;
+  position: relative;
 }
 #face {
   width: 400px;
+  position: relative;
+  z-index: 0;
+}
+#hat{
+  width: 300px;
+  top: -735px;
+  left: -60px;
+  z-index: 0;
+  position: relative;
+  
+  
+}
+#mouth2{
+  top: -320px;
+  left: 90px;
+  z-index: 0;
+  width: 200px;
+  position: relative;
+}
+
+#ears1{
+  position: relative;
+  width: 350px;
+  z-index: 0;
+  left: -295px;
+  top: -380px;
+}
+
+#eyes2{
+  position: relative;
+  width: 150px;
+  left: -340px;
+  top: -190;
+  z-index: 1;
+}
+#nose2{
+  position: relative;
+  width: 50px;
+  z-index: 1;
+  top:-400px;
+  left: -90px;
 }
 
